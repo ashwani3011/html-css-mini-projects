@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.background {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(-45deg, #40e0d0, #ff8c00, #ff0080);
+  background-size: 300% 300%;
+  animation: bgAnimation 5s ease-in-out infinite;
+}
+@keyframes bgAnimation {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+.heading {
+  color: rgba(255, 255, 255, 0.582);
+  border: 2px solid #aaa;
+  display: inline-block;
+  padding: 5px 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
