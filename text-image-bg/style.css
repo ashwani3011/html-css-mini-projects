@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+.code-container {
+  width: 50%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* justify-content: center; */
+  padding: 8rem 5rem;
+  gap: 4rem;
+}
+.code-container h3 {
+  font-size: 2.5rem;
+}
+.code-container img {
+  width: 80%;
+  /* margin: auto; */
+}
+.text-container {
+  width: 50%;
+  margin: auto;
+  font-size: 5rem;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+.text {
+  background-image: url("./bg.webp");
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
